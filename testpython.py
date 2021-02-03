@@ -1,6 +1,8 @@
 import random
 
 goal = random.randint(1, 100)
+
+
 while True:
     s = input("Enter a number: ")
     if not s.isdigit():
